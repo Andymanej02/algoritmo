@@ -1,0 +1,57 @@
+/* Estilos para el contenedor principal del dashboard */
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  /* Estilos para el título */
+  .dashboard-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el encabezado */
+  .encabezado {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para la cuadrícula de productos */
+  .productos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Muestra tres productos por fila */
+    gap: 20px; /* Espacio entre los elementos */
+    justify-content: center; /* Centra las casillas horizontalmente */
+  }
+  
+  /* Estilos para las tarjetas de productos */
+  .producto-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Estilos para la imagen del producto */
+  .producto-card .producto-imagen {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 150px; /* Ajusta la altura máxima de las imágenes según tu preferencia */
+  }
+  
+  /* Estilos para el nombre del producto */
+  .producto-card p:first-child {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para el precio del producto */
+  .producto-card p:last-child {
+    color: #ff6600;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  
